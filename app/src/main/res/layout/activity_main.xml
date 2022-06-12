@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Activities.MainActivity">
+
+    <!--<com.txusballesteros.bubbles.BubbleLayout-->
+        <!--android:id="@+id/bubble_layout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clipChildren="false"-->
+        <!--android:clipToPadding="false"-->
+        <!--&gt;-->
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/avatar"-->
+            <!--android:src="@drawable/ic_menu_camera"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--app:civ_border_color="#FFF"-->
+            <!--app:civ_border_width="2dp"-->
+            <!--/>-->
+
+        <!--<com.nex3z.notificationbadge.NotificationBadge-->
+            <!--android:id="@+id/count"-->
+            <!--android:layout_width="28dp"-->
+            <!--android:layout_height="28dp"-->
+            <!--app:nbMaxTextLength="2"-->
+            <!--app:nbBackground="@drawable/ic_menu_manage"-->
+            <!--/>-->
+
+    <!--</com.txusballesteros.bubbles.BubbleLayout>-->
+    <Button
+        android:id="@+id/my_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Shoto ;) "/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/my_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_btn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:text="bottomBar " />
+    <Button
+        android:visibility="gone"
+        android:id="@+id/my_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_btn2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="554dp"
+        android:text="NavigationDrawer " />
+
+    <TextView
+        android:id="@+id/my_tv"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_below="@+id/my_btn3"
+        android:layout_marginTop="0dp"
+        android:text="asdddddddddddd uiasdgj as adisg asgd asdgjas jkasb dgjh  adash dajkasdhsadasd
+asdasduiyasd  asyigdi uyiu
+saduioasdu asjasdui asda" />
+    <TextView
+
+        android:id="@+id/my_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_tv"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:text="
+asdasduiyasd  asyigdi uyiu
+saduioasdu asjasdui asda
+asdddddddddddd uiasdgj as adisg asgd asdgjas jkasb dgjh  adash dajkasdhsadasd" />
+
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/img_screen_shot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_tv2"
+        android:layout_margin="@dimen/dp_10"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_background" />
+
+</RelativeLayout>

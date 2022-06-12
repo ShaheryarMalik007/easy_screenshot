@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:fontFamily">@font/century_gothic</item>
+        <item name="fontFamily">@font/century_gothic</item>
+    </style>
+
+</resources>
